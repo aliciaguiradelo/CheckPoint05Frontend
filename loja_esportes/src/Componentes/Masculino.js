@@ -12,22 +12,40 @@ export default function Masculino(){
         <>
         <section>
             <article>
+                <figure>
                 <img src={Masc1} className="cards" alt="" />
+                <figcaption>Blusa preta</figcaption>
+                </figure>
             </article>
             <article>
+                <figure>
                 <img src={Masc2} className="cards" alt="" />
+                <figcaption>Blusa preta e verde</figcaption>
+                </figure>
             </article>
             <article>
-            <img src={Masc3} className="cards" alt="" />
+                <figure>
+                <img src={Masc3} className="cards" alt="" />
+                <figcaption>Camiseta time verde 1</figcaption>
+                </figure>
             </article>
             <article>
-            <img src={Masc4} className="cards" alt="" />
+                <figure>
+                <img src={Masc4} className="cards" alt="" />
+                <figcaption>Camiseta time verde 2</figcaption>
+                </figure>
             </article>
             <article>
-            <img src={Masc5} className="cards" alt="" />
+                <figure>
+                <img src={Masc5} className="cards" alt="" />
+                <figcaption>Camiseta time verde 3</figcaption>
+                </figure>
             </article>
             <article>
-            <img src={Masc6} className="cards" alt="" />
+                <figure>
+                <img src={Masc6} className="cards" alt="" />
+                <figcaption>Camiseta time verde 4</figcaption>
+                </figure>
             </article>
         </section>
         </>

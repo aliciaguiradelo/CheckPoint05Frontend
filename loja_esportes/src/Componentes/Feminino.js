@@ -14,37 +14,37 @@ export default function Feminino(){
             <article>
                 <figure>
                 <img src={Fem1} className="cards" alt="" /><br/>
-                <figcaption><b>Conj adidas</b></figcaption>
+                <figcaption>Conj adidas</figcaption>
                 </figure>
             </article>
             <article>
                 <figure>
                 <img src={Fem2} className="cards" alt="" />
-                <figcaption><b>Camitesa adidas</b></figcaption>
+                <figcaption>Camitesa adidas</figcaption>
                 </figure>
             </article>
             <article>
                 <figure>
                 <img src={Fem3} className="cards" alt="" />
-                <figcaption><b>Camitesa adidas</b></figcaption>
+                <figcaption>Camitesa adidas</figcaption>
                 </figure>
             </article>
             <article>
             <figure>
                 <img src={Fem4} className="cards" alt="" />
-                <figcaption><b>Cortavento</b></figcaption>
+                <figcaption>Cortavento</figcaption>
                 </figure>
             </article>
             <article>
             <figure>
                 <img src={Fem5} className="cards" alt="" />
-                <figcaption><b>Cortavento</b></figcaption>
+                <figcaption>Cortavento</figcaption>
                 </figure>
             </article>
             <article>
             <figure>
                 <img src={Fem6} className="cards" alt="" />
-                <figcaption><b>Moleton</b></figcaption>
+                <figcaption>Moleton</figcaption>
                 </figure>
             </article>
         </section>

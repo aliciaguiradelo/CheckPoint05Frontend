@@ -12,22 +12,40 @@ export default function Pet(){
         <>
         <section>
             <article>
+                <figure>
                 <img src={Pet1} className="cards" alt="" />
+                <figcaption>Moleton br</figcaption>
+                </figure>
             </article>
             <article>
+                <figure>
                 <img src={Pet2} className="cards" alt="" />
+                <figcaption>Camisa br</figcaption>
+                </figure>
             </article>
             <article>
-            <img src={Pet3} className="cards" alt="" />
+                <figure>
+                <img src={Pet3} className="cards" alt="" />
+                <figcaption>Lider de torcida br</figcaption>
+                </figure>
             </article>
             <article>
-            <img src={Pet4} className="cards" alt="" />
+                <figure>
+                <img src={Pet4} className="cards" alt="" />
+                <figcaption>Meu Buddy</figcaption>
+                </figure>
             </article>
             <article>
-            <img src={Pet5} className="cards" alt="" />
+                <figure>
+                <img src={Pet5} className="cards" alt="" />
+                <figcaption>Jaqueta basebol</figcaption>
+                </figure>
             </article>
             <article>
-            <img src={Pet6} className="cards" alt="" />
+                <figure>
+                <img src={Pet6} className="cards" alt="" />
+                <figcaption>Jaqueta couro moto</figcaption>
+                </figure>
             </article>
         </section>
         </>

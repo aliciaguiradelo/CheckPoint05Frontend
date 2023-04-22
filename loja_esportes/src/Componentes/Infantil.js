@@ -12,22 +12,40 @@ export default function Infantil(){
         <>
         <section>
             <article>
+                <figure>
                 <img src={Inf1} className="cards" alt="" />
+                <figcaption>Conj beach tenis</figcaption>
+                </figure>
             </article>
             <article>
+            <figure>
                 <img src={Inf2} className="cards" alt="" />
+                <figcaption>Conj rodeio</figcaption>
+                </figure>
             </article>
             <article>
-            <img src={Inf3} className="cards" alt="" />
+            <figure>
+                <img src={Inf3} className="cards" alt="" />
+                <figcaption>Conj ciclismo</figcaption>
+                </figure>
             </article>
             <article>
-            <img src={Inf4} className="cards" alt="" />
+            <figure>
+                <img src={Inf4} className="cards" alt="" />
+                <figcaption>Conj ginastica</figcaption>
+                </figure>
             </article>
             <article>
-            <img src={Inf5} className="cards" alt="" />
+            <figure>
+                <img src={Inf5} className="cards" alt="" />
+                <figcaption>MAio natação</figcaption>
+                </figure>
             </article>
             <article>
-            <img src={Inf6} className="cards" alt="" />
+            <figure>
+                <img src={Inf6} className="cards" alt="" />
+                <figcaption>Bola de volei</figcaption>
+                </figure>
             </article>
         </section>
         </>
