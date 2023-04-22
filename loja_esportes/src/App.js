@@ -5,7 +5,7 @@ import Masculino from './Componentes/Masculino'
 import Nav from './Componentes/Nav'
 import Footer from './Componentes/Footer'
 import Infantil from './Componentes/Infantil'
-import Pets from './Componentes/Pets'
+import Pet from './Componentes/Pet'
 
 function App() {   
 return (
@@ -16,7 +16,7 @@ return (
           <Route path="/Feminino" element={<Feminino/>}/>
           <Route path="/Masculino" element={<Masculino/>}/>
           <Route path="/Infantil" element={<Infantil/>}/>
-          <Route path="/Pets" element={<Pets/>}/>
+          <Route path="/Pet" element={<Pet/>}/>
         </Routes>
         <Footer/>
     </BrowserRouter>

@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import '../Componentes/css/style.css'
+//import '../Componentes/css/style.css'
 
 function Home(){
 
@@ -10,4 +10,4 @@ function Home(){
         </div>
     )
 }
-export default Home
+export default Home;

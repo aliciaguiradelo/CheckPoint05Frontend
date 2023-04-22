@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom'
-import '../index.css'
-import '../Componentes/css/style.css'
+import '../css/index.css'
+//import '../Componentes/css/style.css'
 
 function Nav(){
     
@@ -20,7 +20,7 @@ function Nav(){
                     <Link to="/Infantil">Infantil</Link>
                 </li>
                 <li>
-                    <Link to="/Pets">Pets</Link>
+                    <Link to="/Pet">Pet</Link>
                 </li>
             </ul>
         </div>
