@@ -1,4 +1,4 @@
-//import '../css/style.css'
+import '../css/style.css'
 import {FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa'
 
 
