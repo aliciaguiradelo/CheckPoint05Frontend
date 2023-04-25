@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
-import videoSource from '../img/adidasBrand.mp4'
 import '../css/style.css'
+import Banner from '../img/banner.jpg'
 
 function Home(){
     //criando o useState (manipula o estado da variável)
@@ -35,10 +35,7 @@ function Home(){
 
     return (
         <div className="home">
-            <div class="trailer">
-                <h1>Conheça-nos</h1>
-                <video source={videoSource} width="600px" controls></video>
-            </div>
+            <img src={Banner} className="banner"/>
             <div className='usingUseState'>
                 <form onSubmit={handleSubmit}>
                     <label>
