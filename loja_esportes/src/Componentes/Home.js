@@ -40,15 +40,15 @@ function Home(){
                 <form onSubmit={handleSubmit}>
                     <label>
                     Nome:
-                    <input type="text" value={nome} onChange={event => setNome(event.target.value)} />
+                    <input type="text" value={nome} onChange={event => setNome(event.target.value)} /><br/><br/>
                     </label>
                     <label>
                     Email:
-                    <input type="email" value={email} onChange={event => setEmail(event.target.value)} />
+                    <input type="email" value={email} onChange={event => setEmail(event.target.value)} /><br/><br/>
                     </label>
                     <label>
                     Idade:
-                    <input type="number" value={idade} onChange={event => setIdade(event.target.value)} />
+                    <input type="number" value={idade} onChange={event => setIdade(event.target.value)} /><br/><br/>
                     </label>
                     <button type="submit" onClick={enviarEmail}>ENVIAR</button><br/><br/>
                     {/*{email}*/}

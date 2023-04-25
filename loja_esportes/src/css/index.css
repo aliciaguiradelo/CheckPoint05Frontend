@@ -3,5 +3,8 @@
   padding: 0;
 }
 body{
-  background-color: #ccc;
+  background: rgb(224,163,39);
+background: linear-gradient(90deg, rgba(224,163,39,1) 0%, rgba(119,119,119,0.46262254901960786) 12%, rgba(241,196,15,1) 100%);
+
+
 }
